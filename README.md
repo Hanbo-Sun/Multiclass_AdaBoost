@@ -1,5 +1,6 @@
 # Multi-class-AdaBoost
-SAMME - Stagewise Additive Modeling  using a Multi-class Exponential loss function 
+SAMME - Stagewise Additive Modeling  using a Multi-class Exponential loss function. 
+Implemented by both MATLAB and python.  
 
 This project implemented a novel Multi-class AdaBoost Algorithm referred as SAMME [1] – Stagewise Additive Modeling using a Multi-class Exponential loss function. By adding the log(K + 1) (K denotes classes) term to penalize weak classifier, SAMME not only overcomes the restriction barrier of handling multi-class problems in AdaBoost.M1, but also could be generalized into any fisher-consistent loss function. SAMME is equivalent to stagewise additive modeling. Also, the choice of multi-class exponential loss function satisfying Bayes rule. 
 
